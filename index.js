@@ -4,7 +4,7 @@ function solution(N) {
   let gap = 0;
 
   for (let digit of binary) {
-    if (digit === "0") {
+    if (digit === "1") {
       gap++;
     } else {
       maxGap = Math.max(maxGap, gap);
