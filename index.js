@@ -1,5 +1,5 @@
 function solution(N) {
-  let binary = N.toString(2);
+  let binary = N.toString(4);
   let maxGap = 0;
   let gap = 0;
 
